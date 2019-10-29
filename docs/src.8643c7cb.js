@@ -7,8 +7,8 @@ window.editor=document.getElementById("editor");
 },{"@websh/remote-slave-port":"czNZ"}],"s/6e":[function(require,module,exports) {
 module.exports={v:0,name:"Parcel Example App",short_name:"Parcel Example",version:"0.0.1",icon:"icon.svg",description:"The Parcel example app for WebShell ",license:"MIT",homepage:"https://github.com/websh-org/template-app-parcel#readme",repository:"https://github.com/websh-org/template-app-parcel.git",issues:"https://github.com/websh-org/template-app-parcel/issues",api:{file:{new:"text",open:["text"],save:["text"],formats:{text:{name:"Text File",extension:"txt",type:"text/plain",accept:"text/*"}}}}};
 },{}],"aF54":[function(require,module,exports) {
-"use strict";var e=require("@websh/web-shell-app"),t=n(require("../app-manifest.json"));function n(e){return e&&e.__esModule?e:{default:e}}e.WebShellApp.manifest(t.default),e.WebShellApp.command("file-new",function(){editor.value=""}),e.WebShellApp.command("file-open",function({format:e,content:t,type:n,extension:i}){"text/html"===n&&this.throw("file-bad-file",{reason:"This is not a HTML editor."}),editor.value=t}),e.WebShellApp.command("file-save",async function({format:e}){return await({content:editor.value})});
+"use strict";var e=require("@websh/web-shell-app"),t=n(require("../app-manifest.json"));function n(e){return e&&e.__esModule?e:{default:e}}e.WebShellApp.manifest(t.default),e.WebShellApp.command("file-new",function(){editor.value=""}),e.WebShellApp.command("file-open",function({format:e,content:t,type:n,extension:o}){"text/html"===n&&this.throw("file-cannot-open",{reason:"This is not a HTML editor."}),editor.value=t}),e.WebShellApp.command("file-save",async function({format:e}){return await({content:editor.value})});
 },{"@websh/web-shell-app":"Ax/l","../app-manifest.json":"s/6e"}],"Focm":[function(require,module,exports) {
 "use strict";require("./app.js"),require("./web-shell-app.js"),window.editor=document.getElementById("editor");
 },{"./app.js":"A2T1","./web-shell-app.js":"aF54"}]},{},["Focm"], null)
-//# sourceMappingURL=/template-app-parcel/src.36832ba2.js.map
+//# sourceMappingURL=/template-app-parcel/src.8643c7cb.js.map
