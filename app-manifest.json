@@ -1,0 +1,27 @@
+{
+  "v": 0,
+  "name": "Parcel Example App",
+  "short_name": "Parcel Example",
+  "version": "0.0.1",
+  "icon": "icon.svg",
+  "description": "The Vanilla JS example app for WebShell ",
+  "license": "MIT",
+  "homepage": "https://github.com/websh-org/template-app-vanilla#readme",
+  "repository": "https://github.com/websh-org/template-app-vanilla.git",
+  "issues": "https://github.com/websh-org/template-app-vanilla/issues",
+  "api": {
+    "file": {
+      "new": "text",
+      "open": ["text"],
+      "save": ["text"],
+      "formats": {
+        "text": {
+          "name": "Text File",
+          "extension": "txt",
+          "type": "text/plain",
+          "accept": "text/*"
+        }
+      }
+    }
+  }
+}

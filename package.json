@@ -1,0 +1,28 @@
+{
+  "description": "Parcel Template for WebShell Apps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websh-org/template-app-parcel.git"
+  },
+  "author": "Zoran Obradović, Ljudmila.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/websh-org/template-app-parcel/issues"
+  },
+  "homepage": "https://websh.org/packages/template-app-parcel/",
+  "scripts": {
+    "dev": "cd src; parcel index.html",
+    "build": "rm -rf docs; cd src; NODE_ENV=production parcel build index.html --public-url=/template-app-parcel --out-dir=../docs"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions"
+  ],
+  "dependencies": {
+    "@websh/web-shell-app": "^0.1.4"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-plugin-static-files-copy": "^2.2.1"
+  }
+}
