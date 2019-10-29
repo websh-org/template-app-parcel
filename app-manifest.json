@@ -4,11 +4,11 @@
   "short_name": "Parcel Example",
   "version": "0.0.1",
   "icon": "icon.svg",
-  "description": "The Vanilla JS example app for WebShell ",
+  "description": "The Parcel example app for WebShell ",
   "license": "MIT",
-  "homepage": "https://github.com/websh-org/template-app-vanilla#readme",
-  "repository": "https://github.com/websh-org/template-app-vanilla.git",
-  "issues": "https://github.com/websh-org/template-app-vanilla/issues",
+  "homepage": "https://github.com/websh-org/template-app-parcel#readme",
+  "repository": "https://github.com/websh-org/template-app-parcel.git",
+  "issues": "https://github.com/websh-org/template-app-parcel/issues",
   "api": {
     "file": {
       "new": "text",
