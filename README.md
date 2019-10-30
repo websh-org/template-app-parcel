@@ -1,5 +1,5 @@
-# template-app-vanilla
-A Vanilla JS template for WebShell apps 
+# template-app-parcel
+A Parcel JS template for WebShell apps 
 
 ## Quick Start
 
