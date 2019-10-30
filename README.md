@@ -3,7 +3,7 @@ A Parcel JS template for WebShell apps
 
 ## Quick Start
 
-1. Copy this repo
+1. [Copy this repo](https://github.com/websh-org/template-app-parcel/generate)
 3. Build your app in `src/app.js`
 4. Edit the app's manifest in `app-manifest.json`
 5. Implement the WebShell commands in `src/web-shell-app.json`
